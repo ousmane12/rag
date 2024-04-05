@@ -46,7 +46,7 @@ Once the application is launched, you will be redirected to the home page where 
 
 As an example, I used some informations regarding my old school (www.esp.sn) to ask some questions about their programs:
 
-![capture test](chemin/vers/image.png)
+![capture test](capture.png)
 
 
 __Improvements__
