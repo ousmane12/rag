@@ -19,6 +19,7 @@ Before you begin, make sure you have the following installed:
 - Maven
 - A modern web browser (Chrome, Firefox, etc.)
 - A token from open-ai (https://platform.openai.com/api-keys)
+- Docker
 
 __Installation and Getting Started__
 
@@ -35,8 +36,13 @@ $ cd rag
 ```
 3. Add your open-ai token in your env variable or inside the application.properties file
 4. Add your source of data under _ressources/pdf_ repository
-5. Using IntelliJ, you can run the application
-6. Access the application in your web browser at the following address:
+5. Run the docker command to start the postgres container:
+
+```bash
+$ docker compose up
+```
+6. Using IntelliJ, you can run the application
+7. Access the application in your web browser at the following address:
    ```
    http://localhost:8899/rag
    ```
